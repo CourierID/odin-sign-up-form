@@ -101,6 +101,11 @@
     padding-left: 40px;
 }
 
+.right-bottom-block > h3 > a {
+    text-decoration: none;
+    color: rgb(12, 116, 12);
+}
+
 .input-row-one {
     display: flex;
     gap: 50px;
@@ -136,4 +141,23 @@ input {
     height: 25px;
     border-radius: 5px;
     border: 0.5px solid grey;
+}
+
+input:focus {
+    box-shadow: 2.0px 4.0px 4.0px blue;
+}
+
+.error {
+    border: 0.5px solid red;
+}
+
+form > button {
+    padding: 10px 30px;
+    border-radius: 10px; 
+    color: white;
+    background-color: rgb(12, 116, 12);
+    border: none;
+    box-shadow: 1.2px 2.4px 2.4px hsl(0deg 0% 0% / 0.46);
+    width: 150px;
+    height: 25px;
 }
